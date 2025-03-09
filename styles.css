@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(292, 16%, 49%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+  min-height: 100vh;
+}
+
+main {
+  width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+div {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  display: none;
+}
